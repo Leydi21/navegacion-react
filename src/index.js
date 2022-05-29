@@ -35,12 +35,12 @@ root.render(
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="home">Lady</Nav.Link>
+        <Nav.Link href="home">Home</Nav.Link>
         <Nav.Link href="/">App</Nav.Link>
         <NavDropdown title="Link" id="navbarScrollingDropdown">
           <NavDropdown.Item href="expenses">Action</NavDropdown.Item>
           <NavDropdown.Item href="invoices">Another action</NavDropdown.Item>
-          <NavDropdown.Divider />
+          <NavDropdown.Divider />  
           <NavDropdown.Item href="#action5">
             Something else here
           </NavDropdown.Item>
