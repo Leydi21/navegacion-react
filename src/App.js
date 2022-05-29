@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-import './App.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
@@ -20,8 +19,6 @@ export default function App() {
   return (
     
       <div className="App">
-        <h1>UniverseCode</h1>
-          <h3>Lady</h3>
           <nav
         style={{
           borderBottom: "solid 2px",
